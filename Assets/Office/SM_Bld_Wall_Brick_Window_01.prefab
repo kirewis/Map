@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 4398078959564456}
   - component: {fileID: 33308507101022378}
   - component: {fileID: 23790123687475884}
-  - component: {fileID: 65668323835701952}
+  - component: {fileID: 2531798177800613703}
   m_Layer: 0
   m_Name: SM_Bld_Wall_Brick_Window_01
   m_TagString: Untagged
@@ -110,7 +110,7 @@ Transform:
   m_GameObject: {fileID: 1479243861189784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children:
   - {fileID: 4553579494494102}
   m_Father: {fileID: 0}
@@ -166,8 +166,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65668323835701952
-BoxCollider:
+--- !u!64 &2531798177800613703
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -176,6 +176,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.4999926, y: 2.9970007, z: 0.17040771}
-  m_Center: {x: -1.2499963, y: 1.4985003, z: 0.085203856}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 01fd5a09764a67248aea29c8b20ae10f, type: 3}
